@@ -6,9 +6,9 @@
 
 **基本原理**
 
-関数 f(x) と g(x) について、区間 $a \leqq x \leqq b$ で $f(x) \leqq g(x)$ が成り立つとき、以下が成立します。
+関数 $\mathrm{f}(\mathrm{x})$ と $\mathrm{g}(\mathrm{x})$ について、区間 $\mathrm{a} \leqq \mathrm{x} \leqq \mathrm{b}$ で $\mathrm{f}(\mathrm{x}) \leqq \mathrm{g}(\mathrm{x})$ が成り立つとき、以下が成立します。
 
-$$\int_a^b f(x) \, dx \leqq \int_a^b g(x) \, dx$$
+$$\int_{\mathrm{a}}^{\mathrm{b}} \mathrm{f}(\mathrm{x}) \mathrm{d}\mathrm{x} \leqq \int_{\mathrm{a}}^{\mathrm{b}} \mathrm{g}(\mathrm{x}) \mathrm{d}\mathrm{x}$$
 
 この性質を利用して、複雑な積分を上下から評価し、不等式を示します。
 
@@ -28,7 +28,7 @@ $$\int_a^b f(x) \, dx \leqq \int_a^b g(x) \, dx$$
 
 次の不等式を証明せよ。
 
-$$\frac{1}{3} < \int_0^1 x^{(\sin x + \cos x)^2} \, dx < \frac{1}{2}$$
+$$\frac{1}{3} < \int_{0}^{1} \mathrm{x}^{(\sin \mathrm{x} + \cos \mathrm{x})^2} \mathrm{d}\mathrm{x} < \frac{1}{2}$$
 
 ---
 
@@ -36,7 +36,7 @@ $$\frac{1}{3} < \int_0^1 x^{(\sin x + \cos x)^2} \, dx < \frac{1}{2}$$
 
 次の不等式を証明せよ。
 
-$$\frac{\pi}{4} < \int_0^1 \sqrt{1 - x^3} \, dx < 1$$
+$$\frac{\pi}{4} < \int_{0}^{1} \sqrt{1 - \mathrm{x}^3} \mathrm{d}\mathrm{x} < 1$$
 
 ---
 
