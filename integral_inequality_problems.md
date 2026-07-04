@@ -8,7 +8,7 @@
 
 関数 f(x) と g(x) について、区間 [a, b] で f(x) ≤ g(x) が成り立つとき、以下が成立します。
 
-$$\int_a^b f(x) \, dx \leq \int_a^b g(x) \, dx$$
+$$\int_a^b f(x) \ dx \leq \int_a^b g(x) \ dx$$
 
 この性質を利用して、複雑な積分を上下から評価し、不等式を示します。
 
@@ -28,7 +28,7 @@ $$\int_a^b f(x) \, dx \leq \int_a^b g(x) \, dx$$
 
 次の不等式を証明せよ。
 
-$$\frac{1}{3} < \int_0^1 x^{(\sin x + \cos x)^2} \, dx < \frac{1}{2}$$
+$$\frac{1}{3} < \int_0^1 x^{(\sin x + \cos x)^2} \ dx < \frac{1}{2}$$
 
 ---
 
@@ -36,7 +36,7 @@ $$\frac{1}{3} < \int_0^1 x^{(\sin x + \cos x)^2} \, dx < \frac{1}{2}$$
 
 次の不等式を証明せよ。
 
-$$\frac{\pi}{4} < \int_0^1 \sqrt{1 - x^3} \, dx < 1$$
+$$\frac{\pi}{4} < \int_0^1 \sqrt{1 - x^3} \ dx < 1$$
 
 ---
 
