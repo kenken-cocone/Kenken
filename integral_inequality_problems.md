@@ -16,11 +16,13 @@ $$\int_{\mathrm{a}}^{\mathrm{b}} \mathrm{f}(\mathrm{x}) \mathrm{d}\mathrm{x} \le
 
 **証明の基本戦略**
 
-1. 被積分関数を単純な関数で上下から押さえる
+1. $\mathrm{f}(\mathrm{x})$ の$\mathrm{x}$　を$\int_{\mathrm{}}^{\mathrm{}}$ の上下端評価
 
-2. その単純な関数の積分値を明示的に計算する
+2. 面積評価で$\mathrm{f}(\mathrm{x})$　を長方形で覆う
 
-3. 不等号を繋ぎ合わせて結論を得る
+3. 台形で近似を行う←非常にまれ
+
+   
 
 ---
 
