@@ -6,7 +6,7 @@
 
 **基本原理**
 
-関数 $\mathrm{f}(\mathrm{x})$ と $\mathrm{g}(\mathrm{x})$ について、区間 $\mathrm{a} \leqq \mathrm{x} \leqq \mathrm{b}$ で $\mathrm{f}(\mathrm{x}) \leqq \mathrm{g}(\mathrm{x})$ が成り立つとき、以下が成立します。
+関数 $\mathrm{f}(\mathrm{x})$ と $\mathrm{g}(\mathrm{x})$ について、区間 $\mathrm{a} \leqq \mathrm{x} \leqq \mathrm{b}$ で $\mathrm{f}(\mathrm{x}) \leqq \mathrm{g}(\mathrm{x})$ が成り立つとき：
 
 $$\int_{\mathrm{a}}^{\mathrm{b}} \mathrm{f}(\mathrm{x}) \mathrm{d}\mathrm{x} \leqq \int_{\mathrm{a}}^{\mathrm{b}} \mathrm{g}(\mathrm{x}) \mathrm{d}\mathrm{x}$$
 
@@ -16,11 +16,11 @@ $$\int_{\mathrm{a}}^{\mathrm{b}} \mathrm{f}(\mathrm{x}) \mathrm{d}\mathrm{x} \le
 
 **証明の基本戦略**
 
-1. $\mathrm{f}(\mathrm{x})$ の$\mathrm{x}$　を$\int_{\mathrm{}}^{\mathrm{}}$ の上下端評価
+1. **比較関数の設定**：被積分関数 $f(x)$ に対して、上下から評価可能な比較関数 $g(x)$ , $h(x)$ を見つける
 
-2. 面積評価で$\mathrm{f}(\mathrm{x})$　を長方形で覆う
+2. **長方形による評価**：$f(x)$ を縦横が定数の長方形で上下から評価し、積分値の粗い上限・下限を得る
 
-3. 台形で近似を行う←非常にまれ
+3. **台形による精密評価**：必要に応じて、台形を用いてより精密な評価を行う（複雑な形状の曲線の場合に用いることは非常にまれ）
 
    
 
